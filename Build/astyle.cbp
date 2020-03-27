@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="astyle"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/AStyle_3.1_windows/Build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="D:/AStyle_3.1_windows/Build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="astyle">
+				<Option output="D:/AStyle_3.1_windows/Build/AStyle.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AStyle_3.1_windows/Build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 astyle"/>
+					<CompileFile command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="astyle/fast">
+				<Option output="D:/AStyle_3.1_windows/Build/AStyle.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AStyle_3.1_windows/Build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 astyle/fast"/>
+					<CompileFile command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="D:/AStyle_3.1_windows/Build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="D:/AStyle_3.1_windows/Build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/AStyle_3.1_windows/Build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/AStyle_3.1_windows/Build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="D:/AStyle_3.1_windows/Build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/gcc730/x86_64-7.3.0-release-posix-sjlj-rt_v5-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/AStyle_3.1_windows/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/AStyle_3.1_windows/AStyle/src/ASBeautifier.cpp">
+			<Option target="astyle"/>
+		</Unit>
+		<Unit filename="D:/AStyle_3.1_windows/AStyle/src/ASEnhancer.cpp">
+			<Option target="astyle"/>
+		</Unit>
+		<Unit filename="D:/AStyle_3.1_windows/AStyle/src/ASFormatter.cpp">
+			<Option target="astyle"/>
+		</Unit>
+		<Unit filename="D:/AStyle_3.1_windows/AStyle/src/ASLocalizer.cpp">
+			<Option target="astyle"/>
+		</Unit>
+		<Unit filename="D:/AStyle_3.1_windows/AStyle/src/ASLocalizer.h">
+			<Option target="astyle"/>
+		</Unit>
+		<Unit filename="D:/AStyle_3.1_windows/AStyle/src/ASResource.cpp">
+			<Option target="astyle"/>
+		</Unit>
+		<Unit filename="D:/AStyle_3.1_windows/AStyle/src/astyle_main.cpp">
+			<Option target="astyle"/>
+		</Unit>
+		<Unit filename="D:/AStyle_3.1_windows/AStyle/src/astyle_main.h">
+			<Option target="astyle"/>
+		</Unit>
+		<Unit filename="D:/AStyle_3.1_windows/AStyle/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

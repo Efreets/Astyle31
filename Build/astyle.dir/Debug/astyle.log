@@ -1,0 +1,49 @@
+﻿Build started 2020/3/13 12:04:26.
+     1>Project "D:\AStyle_3.1_windows\Build\astyle.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule D:/AStyle_3.1_windows/AStyle/CMakeLists.txt
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /GR /Fo"astyle.dir\Debug\\" /Fd"astyle.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt D:\AStyle_3.1_windows\AStyle\src\ASBeautifier.cpp D:\AStyle_3.1_windows\AStyle\src\ASEnhancer.cpp D:\AStyle_3.1_windows\AStyle\src\ASFormatter.cpp D:\AStyle_3.1_windows\AStyle\src\ASLocalizer.cpp D:\AStyle_3.1_windows\AStyle\src\ASResource.cpp D:\AStyle_3.1_windows\AStyle\src\astyle_main.cpp
+         Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /GR /Fo"astyle.dir\Debug\\" /Fd"astyle.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt D:\AStyle_3.1_windows\AStyle\src\ASBeautifier.cpp D:\AStyle_3.1_windows\AStyle\src\ASEnhancer.cpp D:\AStyle_3.1_windows\AStyle\src\ASFormatter.cpp D:\AStyle_3.1_windows\AStyle\src\ASLocalizer.cpp D:\AStyle_3.1_windows\AStyle\src\ASResource.cpp D:\AStyle_3.1_windows\AStyle\src\astyle_main.cpp
+         
+         ASBeautifier.cpp
+         ASEnhancer.cpp
+         ASFormatter.cpp
+         ASLocalizer.cpp
+     1>D:\AStyle_3.1_windows\AStyle\src\ASLocalizer.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>D:\AStyle_3.1_windows\AStyle\src\ASLocalizer.cpp(460): error C2001: newline in constant
+     1>D:\AStyle_3.1_windows\AStyle\src\ASLocalizer.cpp(461): error C2146: syntax error : missing ')' before identifier 'addPair'
+     1>D:\AStyle_3.1_windows\AStyle\src\ASLocalizer.cpp(466): error C2001: newline in constant
+     1>D:\AStyle_3.1_windows\AStyle\src\ASLocalizer.cpp(467): error C2146: syntax error : missing ')' before identifier 'addPair'
+     1>D:\AStyle_3.1_windows\AStyle\src\ASLocalizer.cpp(468): error C2001: newline in constant
+     1>D:\AStyle_3.1_windows\AStyle\src\ASLocalizer.cpp(469): error C2146: syntax error : missing ')' before identifier 'addPair'
+     1>D:\AStyle_3.1_windows\AStyle\src\ASLocalizer.cpp(500): error C2001: newline in constant
+     1>D:\AStyle_3.1_windows\AStyle\src\ASLocalizer.cpp(501): error C2146: syntax error : missing ')' before identifier 'addPair'
+     1>D:\AStyle_3.1_windows\AStyle\src\ASLocalizer.cpp(502): error C2001: newline in constant
+     1>D:\AStyle_3.1_windows\AStyle\src\ASLocalizer.cpp(503): error C2146: syntax error : missing ')' before identifier 'addPair'
+     1>D:\AStyle_3.1_windows\AStyle\src\ASLocalizer.cpp(653): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>D:\AStyle_3.1_windows\AStyle\src\ASLocalizer.cpp(743): error C2001: newline in constant
+     1>D:\AStyle_3.1_windows\AStyle\src\ASLocalizer.cpp(744): error C2146: syntax error : missing ')' before identifier 'addPair'
+     1>D:\AStyle_3.1_windows\AStyle\src\ASLocalizer.cpp(747): error C2001: newline in constant
+     1>D:\AStyle_3.1_windows\AStyle\src\ASLocalizer.cpp(748): error C2146: syntax error : missing ')' before identifier 'addPair'
+     1>D:\AStyle_3.1_windows\AStyle\src\ASLocalizer.cpp(840): error C2001: newline in constant
+     1>D:\AStyle_3.1_windows\AStyle\src\ASLocalizer.cpp(841): error C2146: syntax error : missing ')' before identifier 'addPair'
+     1>D:\AStyle_3.1_windows\AStyle\src\ASLocalizer.cpp(843): error C2001: newline in constant
+     1>D:\AStyle_3.1_windows\AStyle\src\ASLocalizer.cpp(844): error C2146: syntax error : missing ')' before identifier 'addPair'
+     1>D:\AStyle_3.1_windows\AStyle\src\ASLocalizer.cpp(845): error C2001: newline in constant
+     1>D:\AStyle_3.1_windows\AStyle\src\ASLocalizer.cpp(846): error C2146: syntax error : missing ')' before identifier 'addPair'
+     1>D:\AStyle_3.1_windows\AStyle\src\ASLocalizer.cpp(874): error C2001: newline in constant
+     1>D:\AStyle_3.1_windows\AStyle\src\ASLocalizer.cpp(875): error C2146: syntax error : missing ')' before identifier 'addPair'
+     1>D:\AStyle_3.1_windows\AStyle\src\ASLocalizer.cpp(877): error C2001: newline in constant
+     1>D:\AStyle_3.1_windows\AStyle\src\ASLocalizer.cpp(878): error C2146: syntax error : missing ')' before identifier 'addPair'
+         ASResource.cpp
+         astyle_main.cpp
+         Generating Code...
+     1>Done Building Project "D:\AStyle_3.1_windows\Build\astyle.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.89
